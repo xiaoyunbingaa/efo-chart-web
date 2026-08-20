@@ -4,7 +4,8 @@
   "description": "chart execrise pro.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:charts-web": "npm run dev --workspace @efo/charts-web"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   },
   "homepage": "https://github.com/xiaoyunbingaa/efo-chart-web#readme",
   "workspaces": [
-    "packages/chart-web",
+    "packages/charts-web",
     "packages/utils"
   ]
 }

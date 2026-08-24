@@ -11,7 +11,9 @@ export default defineConfig(() => ({
   root: path.resolve(process.cwd()),
   plugins: [
     pluginLegacy(),
-    pluginVue(),
+    pluginVue({
+      hmr: true,
+    }),
     pluginVueJsx(),
     AutoImport({ resolvers: [ElementPlusResolver()] }),
     Components({ resolvers: [ElementPlusResolver()] }),

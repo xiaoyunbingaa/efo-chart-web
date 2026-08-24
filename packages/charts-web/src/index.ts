@@ -1,3 +1,4 @@
+import 'normalize.css'
 import '@/common/styles/index.less'
 
 import { createApp } from 'vue'
@@ -5,7 +6,7 @@ import { createPinia } from 'pinia'
 import ElementPlus from 'element-plus'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 import 'element-plus/dist/index.css'
-import App from '@/view/main.vue'
+import App from '@/view/app.vue'
 import router from '@/router/index.ts'
 import {useGlobalStore} from '@/store/globalStore.ts'
 

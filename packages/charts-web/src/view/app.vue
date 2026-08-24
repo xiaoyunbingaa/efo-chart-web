@@ -1,11 +1,13 @@
 <template>
-	<div class="common-layout">
-		<el-container>
-			<el-header>Header</el-header>
-			<el-container>
+	<div class="efo-layout">
+		<el-container direction="vertical">
+			<EfoHeader />
+			<el-container style="height: calc(100vh - 64px);">
 				<el-aside width="200px">Aside</el-aside>
 				<el-container>
-					<el-main>Main</el-main>
+					<el-main>
+						<router-view></router-view>
+					</el-main>
 					<el-footer>Footer</el-footer>
 				</el-container>
 			</el-container>
@@ -15,9 +17,8 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import { EfoHeader } from '@/common/components'
 
-const title = ref('Charts Web')
-const description = ref('Welcome to the charts application.')
 </script>
 
 <style scoped>

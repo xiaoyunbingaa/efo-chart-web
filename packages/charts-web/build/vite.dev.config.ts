@@ -7,5 +7,8 @@ export default defineConfig(() => ({
     port: 8080,
     open: true,
     proxy,
+    hmr: {
+      overlay: true,
+    }
   },
 }))

@@ -1,0 +1,7 @@
+
+
+/* 修改nprogress颜色，匹配element‑plus主色 */
+#nprogress .bar {
+  background: #409eff !important;
+  height: 3px !important;
+}

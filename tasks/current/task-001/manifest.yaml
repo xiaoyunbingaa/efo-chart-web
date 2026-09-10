@@ -1,0 +1,9 @@
+task_id: task-001
+title: "模板任务：理解并完善图表项目"
+version: 1.0.1
+status: pending
+order: 1
+depends_on: []
+owner: copilot
+created_at: 2026-09-10T23:00:00Z
+updated_at: 2026-09-10T23:20:00Z

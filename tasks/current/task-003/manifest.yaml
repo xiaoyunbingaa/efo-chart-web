@@ -1,0 +1,9 @@
+task_id: task-003
+title: "实现 packages/utils 的基础工具并增加导出声明"
+version: 1.0.0
+status: pending
+order: 3
+depends_on: ["task-001"]
+owner: copilot
+created_at: 2026-09-11T00:45:00Z
+updated_at: 2026-09-11T00:45:00Z
